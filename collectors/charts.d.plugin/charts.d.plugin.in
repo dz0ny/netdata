@@ -195,7 +195,7 @@ pluginsd="${NETDATA_PLUGINS_DIR}"
 stockconfd="${NETDATA_STOCK_CONFIG_DIR}/${PROGRAM_NAME}"
 userconfd="${NETDATA_USER_CONFIG_DIR}/${PROGRAM_NAME}"
 olduserconfd="${NETDATA_USER_CONFIG_DIR}"
-chartsd="$pluginsd/../charts.d"
+chartsd="/etc/netdata/charts.d"
 
 minimum_update_frequency="${NETDATA_UPDATE_EVERY-1}"
 update_every=${minimum_update_frequency} # this will be overwritten by the command line
